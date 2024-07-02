@@ -1,0 +1,72 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "authetication",
+    "collectionId": "e071bb1f-c5df-430c-a8fa-f2efbd81ec08",
+    "dateExported": "2024-07-02T16:26:33.291Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7cc4aae2-8a86-4164-90f1-5ea26981ac5e",
+            "colId": "e071bb1f-c5df-430c-a8fa-f2efbd81ec08",
+            "containerId": "",
+            "name": "auth",
+            "url": "http://localhost:8000/auth/createuser",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-30T17:29:27.723Z",
+            "modified": "2024-07-02T12:49:51.306Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\"name\":\"aditya\",\n\"email\":\"gargadity@gmail.com\",\n\"password\":\"123456\"}",
+                "form": []
+            }
+        },
+        {
+            "_id": "825dba24-2877-4180-9e3d-92b8bca4b331",
+            "colId": "e071bb1f-c5df-430c-a8fa-f2efbd81ec08",
+            "containerId": "",
+            "name": "user login using credentials",
+            "url": "http://localhost:8000/auth/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-01T03:56:12.936Z",
+            "modified": "2024-07-02T11:07:00.189Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"email\":\"gargaditya1101@gmail.com\",\n\"password\":\"21254\"}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ee3b02ec-39a4-4ba0-bf4f-6d261e496c54",
+            "colId": "e071bb1f-c5df-430c-a8fa-f2efbd81ec08",
+            "containerId": "",
+            "name": "get user",
+            "url": "http://localhost:8000/auth/logged",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-05-01T08:21:21.412Z",
+            "modified": "2024-05-01T08:28:14.744Z",
+            "headers": [
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMWI0NjFmMTdlODJhZTRjNmJkNDI0In0sImlhdCI6MTcxNDU1MTkyNX0.futCjMY5BtiOgV6Lw-1o0VsxucdYFakzF9ETlm8tdlQ"
+                }
+            ]
+        }
+    ],
+    "ref": "6EGJG6ivxrz-0h6kuhJjm5F8ZdsHjgnfMQ-fngK2-XX5MYKoL8VfGWwHcnFpgFanPnWErr-HLkVmND_9_Khu4Q"
+}
